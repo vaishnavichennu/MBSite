@@ -1,0 +1,135 @@
+body{
+font-family: "Montserrat";
+}
+#title{
+  /* background-color: #ff4c68; */
+  background: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.tagline{
+  color: white;
+}
+h2{
+  text-align: center;
+  padding: 20px;
+  line-height: 1.5;
+
+}
+.container-fluid{
+  padding:3% 15% 7%;
+}
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+.nav-items{
+  padding:0 18px 0 18;
+}
+.nav-links{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.navbar-brand{
+  font-family: ubuntu;
+  font-size: 2rem;
+}
+.download-button{
+margin: 5% 3% 5% 0;
+}
+.image{
+  width: 50%;
+  size: 6rem;
+transform: rotate(25deg);
+position: absolute;
+}
+
+#features{
+  background-color: #fff;
+  padding:7% 15%;
+  position: relative;
+  z-index: 1;
+}
+.row{
+  text-align: center;
+}
+.icon{
+   color:#f83600; /* #ef8172; */
+  text-align: center;
+  padding: 1rem;
+}
+.icon:hover{
+   background: linear-gradient(to right, #f83600 0%, #f9d423 100%); /*#ff4c68; */
+}
+.fea{
+  color: grey;
+}
+#testimonials{
+  text-align: center;
+    background:  linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    color: black;
+}
+.test-pic{
+  border-radius: 100%;
+  max-width: 500px;
+  
+}
+.testimonial-image{
+  max-height: 300px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding:7% 15%;
+}
+.press-pic{
+
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+  padding:1% 15%;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+@media (max-width:1300px){
+  #title{
+    text-align: center;
+
+  }
+  .image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  background:linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  text-align: center;
+}
+h3{
+  padding: 50px 0;
+}
+.cta-button{
+  margin:10px 30px 40px 0;
+}
+#footer{
+  text-align: center;
+  padding:20px 0;
+}
+.copyright-text{
+  font-size: 10px;
+}
+
+.section {
+  padding: 50px 0;
+}
+.map-container {
+  height: 100px;
+}
